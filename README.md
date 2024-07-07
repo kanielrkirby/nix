@@ -12,7 +12,7 @@ To use the development environments in this repository, you must have Nix instal
 sh <(curl -L https://nixos.org/nix/install)
 ```
 
-Ensure that you have [enabled Nix Flakes](https://nixos.wiki/wiki/Flakes).
+Ensure that you have [enabled Nix Flakes](https://nixos.wiki/wiki/Flakes). To enable it for just the following commands, just pass in `--experimental-features 'nix-command flakes'` with the rest of the command.
 
 ### How to Use
 
